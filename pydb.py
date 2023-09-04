@@ -17,6 +17,6 @@ def conecta_db():
 nome = input("Digite o nome:")
 telefone = str(input("Digite o número do telefone:"))
 
-# 'executa_consulta(consulta) para enviar ' 
+# 'executa_consulta(consulta) para enviar as variáveis para o banco de dados.' 
 consulta = str("insert into public.contatos(nome, telefone) values('"+nome+"','"+telefone+"')")
 executa_consulta(consulta)
